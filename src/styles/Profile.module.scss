@@ -1,0 +1,113 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.profilePicture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputField,
+.selectField,
+.countryCodeSelect {
+  width: 362px;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: left;
+}
+
+.phoneInputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 4px 0 0 4px;
+  margin-bottom: 10px;
+  height: 60px;
+  width: 362px;
+}
+
+.countryCodeSelect {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  width: 90px;
+  text-align: left;
+}
+
+.inputField {
+  flex: 2;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 362px;
+}
+
+.cancelButton,
+.saveButton {
+  width: 174px;
+  height: 54px;
+  padding: 15.5px 58px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #008955;
+  border-radius: 8px 0 0 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.saveButton {
+  background-color: #4caf50;
+}
+
+.cancelButton:hover,
+.saveButton:hover {
+  opacity: 0.8;
+}
+.backArrow {
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: black; 
+  font-size: 18px; 
+}
+
+.backArrow span {
+  margin-right: 5px; 
+}

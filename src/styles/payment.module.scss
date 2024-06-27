@@ -1,0 +1,184 @@
+.cover {
+    background-color: white;
+    padding: 5px;
+  }
+  
+  .walletContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
+  
+  .balanceSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .balanceCard,
+  .expenseCard {
+    width: 166px; 
+    height: 145px; 
+    position: absolute; 
+    top: 110px;
+    left: 30px;
+    gap: 0;
+    border-radius: 8px 0 0 0; 
+    border: 1px solid #ddd; 
+    opacity: 1; 
+    text-align: center;
+    border: 1px solid #08B783;
+    background: #E2F5ED;
+
+  }
+  
+  
+  .expenseCard {
+    left: auto; 
+    right: 15px; 
+    border-radius: 0 8px 0 0; 
+  }
+  
+  .addMoneyButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; 
+    top: 60px; 
+    right: 15px; 
+  }
+  
+  .transactionsSection {
+    padding: 20px;
+    margin-top: 230px;
+    
+  }
+  
+  .transactionsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transactionTitle {
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .seeAllLink {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .transactionsBox {
+    margin-top: 20px;
+
+  }
+  
+  .transactionsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transactionItem {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transactionLabel {
+    font-weight: bold;
+  }
+  
+  .transactionAmount {
+    font-weight: bold;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+
+  .navItem {
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navItem:hover {
+    color: #007bff;
+  }
+  
+.imageButton {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    cursor: pointer;
+    border: none; 
+    background: none; 
+    padding: 0; 
+    z-index: 999; 
+  }
+  
+  .imageButton img {
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+  }
+  .navItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .navIcon {
+    width: 40px;
+    height: 40px; 
+    margin-bottom: 1px; 
+  }
+  .iconWrapperA {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%; 
+    height: 100%; 
+    background-image: url('/images/Vector.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: -80px; 
+    z-index: 1; 
+    margin-bottom: 1px;
+  }
+  .navIcon1 {
+    width: 40px; 
+    height: 40px; 
+    margin-bottom: 10px; 
+  }
+  .wallet{
+   margin-bottom: 54px; 
+  }
+  
