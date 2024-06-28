@@ -12,10 +12,20 @@ const Payment = () => {
   };
 
   useEffect(() => {
-    fetch('https://299e2f7a-3a0f-4d1e-b8f4-8fe77bee946a.mock.pstmn.io/wallet-summary')
-      .then(response => response.json())
-      .then(data => setData(data))
-      .catch(error => setError(error));
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://www.thedevstudio.in/api/react-internship-wallet-summary');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setData(data);
+      } catch (error) {
+        setError(error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   if (error) return <div className={styles.error}>Error: {error.message}</div>;
