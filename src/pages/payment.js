@@ -75,7 +75,7 @@ const Payment = () => {
             <img src="/images/Favourite.png" alt="Favourite" className={styles.navIcon} />
           </div>
           <div className={styles.navItem}>
-            <img src="/images/Wallet.png" alt="Wallet" className={styles.navIcon1} />
+            <img src="/images/wallet.png" alt="Wallet" className={styles.navIcon1} />
             <div className={styles.wallet}>Wallet</div>
           </div>
           <div className={styles.navItem}>
